@@ -1,0 +1,19 @@
+{
+  "name": "r.js-multiple-modules",
+  "version": "0.0.0",
+  "description": "Playing with r.js build configs to get multiple modules built",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sennett/r.js-multiple-modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sennett/r.js-multiple-modules/issues"
+  },
+  "homepage": "https://github.com/sennett/r.js-multiple-modules"
+}
