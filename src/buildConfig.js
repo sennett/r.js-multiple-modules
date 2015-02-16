@@ -3,7 +3,7 @@
 	modules: [
 		{
 			"name": "moduleOne/moduleOne",
-			"out": "../build/moduleOne.js"
+			"out": "../build/moduleOneBundle.js"
 		}
 	],
 
