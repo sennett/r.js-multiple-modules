@@ -6,9 +6,9 @@
     <script src="bower_components/requirejs/require.js"></script>
 
     <!--dev mode-->
-    <script src="src/devModuleConfig.js"></script>
+    <!--<script src="src/devModuleConfig.js"></script>-->
     <!--prod mode-->
-    <!--<script src="src/main.js"></script>-->
+    <script src="build/prodModuleConfig.js"></script>
 </head>
 <body>
     <script>
@@ -16,9 +16,9 @@
             console.log('loaded module one');
         });
 
-        require(['myModules/moduleTwo'], function(){
-            console.log('loaded module two');
-        });
+//        require(['myModules/moduleTwo'], function(){
+//            console.log('loaded module two');
+//        });
     </script>
 </body>
 </html>

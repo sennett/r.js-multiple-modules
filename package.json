@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "rm -rf build; node node_modules/.bin/r.js -o src/buildConfig.js"
+    "build": "rm -rf build; node node_modules/.bin/r.js -o src/buildConfig.js; cp src/prodModuleConfig.js build/prodModuleConfig.js"
   },
   "repository": {
     "type": "git",
