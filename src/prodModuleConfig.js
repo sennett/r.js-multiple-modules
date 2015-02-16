@@ -1,7 +1,7 @@
 require.config({
 	baseUrl: '/build',
 	paths: {
-		'myModules/moduleOne': 'moduleOneBundle',
+		'myModules/moduleOne': 'moduleOne/moduleOne',
 		'myModules/moduleTwo': 'moduleTwo/moduleTwo'
 	}
 });

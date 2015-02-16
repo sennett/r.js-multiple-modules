@@ -2,11 +2,13 @@
 	"baseUrl": "./",
 	modules: [
 		{
-			"name": "moduleOne/moduleOne",
-			"out": "../build/moduleOneBundle.js"
+			"name": "moduleOne/moduleOne"
+		},
+		{
+			"name": "moduleTwo/moduleTwo"
 		}
 	],
-
+	removeCombined: true,
 	dir:"../build",
 
 	mainConfigFile: 'devModuleConfig.js',
