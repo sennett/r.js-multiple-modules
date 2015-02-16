@@ -2,7 +2,7 @@
 	"baseUrl": "./",
 
 	"name": "moduleOne/moduleOne",
-	"out": "../build/moduleOne.js",
+	"out": "../build/moduleOneBundle.js",
 
 	mainConfigFile: 'devModuleConfig.js',
 	optimize: 'none'
