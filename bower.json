@@ -14,6 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "~2.1.16"
+    "requirejs": "~2.1.16",
+    "underscore": "~1.7.0"
   }
 }

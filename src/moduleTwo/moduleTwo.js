@@ -1,3 +1,5 @@
 define(['moduleTwo/dependencyForModuleTwo'], function (dep) {
-	return {};
+	return {
+		message: 'loaded module two'
+	};
 });

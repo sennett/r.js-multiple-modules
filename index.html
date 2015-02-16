@@ -12,12 +12,12 @@
 </head>
 <body>
     <script>
-        require(['myModules/moduleOne'], function(){
-            console.log('loaded module one');
+        require(['myModules/moduleOne'], function(moduleOne){
+            console.log(moduleOne.message);
         });
 
-        require(['myModules/moduleTwo'], function(){
-            console.log('loaded module two');
+        require(['myModules/moduleTwo'], function(moduleTwo){
+            console.log(moduleTwo.message);
         });
     </script>
 </body>
