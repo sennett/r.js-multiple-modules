@@ -3,11 +3,17 @@
 	modules: [
 		{
 			"name": "moduleOne/moduleOne",
-			exclude:['underscore']
+			exclude:[
+				'underscore',
+				'common/someCommonModule'
+			]
 		},
 		{
 			"name": "moduleTwo/moduleTwo",
-			exclude:['underscore']
+			exclude:[
+				'underscore',
+				'common/someCommonModule'
+			]
 		}
 	],
 	removeCombined: true,
