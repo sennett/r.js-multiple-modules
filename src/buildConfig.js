@@ -2,10 +2,12 @@
 	"baseUrl": "./",
 	modules: [
 		{
-			"name": "moduleOne/moduleOne"
+			"name": "moduleOne/moduleOne",
+			exclude:['underscore']
 		},
 		{
-			"name": "moduleTwo/moduleTwo"
+			"name": "moduleTwo/moduleTwo",
+			exclude:['underscore']
 		}
 	],
 	removeCombined: true,
