@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hello r.js bundles</title>
+    <script src="bower_components/requirejs/require.js"></script>
+
+    <!--dev mode-->
+    <script src="src/main.js"></script>
+    <!--prod mode-->
+    <!--<script src="src/main.js"></script>-->
+</head>
+<body>
+    <script>
+        require(['myModules/moduleOne'], function(){
+            console.log('loaded module one');
+        });
+
+        require(['myModules/moduleTwo'], function(){
+            console.log('loaded module two');
+        });
+    </script>
+</body>
+</html>
